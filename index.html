@@ -9,7 +9,12 @@
 </head>
 
 <body>
-    
+    <script>
+  const password = prompt("Alleen echte Phanten zijn welkom:");
+  if (password !== "Trammelant9") {
+    document.body.innerHTML = "<h1>Geen toegang</h1>";
+  }
+</script>
 <nav>
     <div class="nav-left">
         <button class="navPage" onclick="showPage('home')">HOME</button>
