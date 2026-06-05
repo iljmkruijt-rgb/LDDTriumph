@@ -337,6 +337,10 @@ nav {
     margin: 0;
 }
 
+.feature {
+    fontsize: 25px;
+}
+
 .heartbeat-bg {
     content: '♥';
     position: fixed;
