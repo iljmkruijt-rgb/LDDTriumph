@@ -338,7 +338,7 @@ nav {
 }
 
 .feature {
-    font-size: 25px;
+    font-size: 25px !important;
 }
 
 .heartbeat-bg {
