@@ -10,9 +10,13 @@
 
 <body>
     <script>
-  const password = prompt("Alleen echte Phanten zijn welkom:");
-  if (password !== "Trammelant9") {
+  document.body.style.display = "none";
+  const password = prompt("Alleen OG Phanten zijn welkom:");
+  if (password === "Trammelant9") {
+    document.body.style.display = "block";
+  } else {
     document.body.innerHTML = "<h1>Geen toegang</h1>";
+    document.body.style.display = "block";
   }
 </script>
 <nav>
