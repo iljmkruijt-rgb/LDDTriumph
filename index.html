@@ -9,16 +9,7 @@
 </head>
 
 <body>
-    <script>
-  document.body.style.display = "none";
-  const password = prompt("Alleen OG Phanten zijn welkom:");
-  if (password === "Trammelant9") {
-    document.body.style.display = "block";
-  } else {
-    document.body.innerHTML = "<h1>Ga ergens anders de lolbroek uithangen</h1>";
-    document.body.style.display = "block";
-  }
-</script>
+    <div id="content" style="display:none">
 <nav>
     <div class="nav-left">
         <button class="navPage" onclick="showPage('home')">HOME</button>
@@ -308,6 +299,16 @@
 
   loadEntries();
 </script>
+    </div>
 
+ <script>
+    const password = prompt("Alleen OG Phanten zijn welkom:");
+    if (password === "Trammelant") {
+      document.getElementById("content").style.display = "block";
+    } else {
+      document.body.innerHTML = "<h1>Ga ergens anders de lolbroek uithangen...</h1>";
+      document.body.style.display = "block";
+    }
+  </script>
 </body>
 </html>
