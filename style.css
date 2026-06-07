@@ -292,7 +292,7 @@ nav {
 
 .timeline {
     margin-top: 20px;
-    margin-left: 2vw;
+    margin-left: 4vw;
     position: relative;
     text-transform: uppercase;
     font-size: 40px;
@@ -364,7 +364,7 @@ nav {
     transform: translate(-50%, -50%);
     font-size: 35rem;
     color: red;
-    opacity: 0.11;
+    opacity: 0.23;
     animation: heartbeat 5s ease-in-out infinite;
     pointer-events: none;
     z-index: -1;
