@@ -66,14 +66,14 @@ nav {
 }
 
 .textblock {
-  width: 80vw;
+    width: 80vw;
   max-width: 800px;
   margin: 0 auto;
   padding-bottom: 15px;
   line-height: 1.6;
   text-align: center;
     color: rgba(255, 255, 255, 0.859);
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif !important;
 }
 
 #home .upper .bold {
