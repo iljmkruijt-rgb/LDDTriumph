@@ -318,6 +318,7 @@ nav {
 .timeline-content h3 {
     font-size: 60px;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .timeline-content p {
