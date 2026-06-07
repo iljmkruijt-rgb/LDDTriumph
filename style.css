@@ -159,6 +159,16 @@ nav {
     height: auto;
 }
 
+.trammelant h1 {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.859);
+}
+
 .fotos h1 {
     font-size: 55px;
     color: rgba(255, 255, 255, 0.859);
