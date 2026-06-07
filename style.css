@@ -61,14 +61,14 @@ nav {
 }
 
 #home .upper h1 {
-    font-size: 55px;
+    font-size: 70px;
 }
 
 .textblock {
   width: 80vw;
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
   line-height: 1.6;
   text-align: center;
 }
