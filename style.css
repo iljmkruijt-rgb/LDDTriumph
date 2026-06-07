@@ -366,6 +366,15 @@ nav {
     70%  { transform: translate(-50%, -50%) scale(1); }
 }
 
+.merch h1 {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.859);
+}
+
 .page.active.noscroll {
   overflow-y: hidden;
   overflow-x: hidden;
