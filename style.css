@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
     background-color: rgba(2, 74, 207, 0.853);
@@ -468,8 +469,6 @@ nav {
     object-fit: cover;
     border-radius: 6px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 
 .commissie-foto p {
     text-align: center;
