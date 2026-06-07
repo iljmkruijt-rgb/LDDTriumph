@@ -72,6 +72,8 @@ nav {
   padding-bottom: 15px;
   line-height: 1.6;
   text-align: center;
+    color: rgba(255, 255, 255, 0.859);
+    font-family: "Bebas Neue", sans-serif;
 }
 
 #home .upper .bold {
