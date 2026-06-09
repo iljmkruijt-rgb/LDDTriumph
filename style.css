@@ -174,10 +174,10 @@ nav {
 
 video {
   width: 70vw;
-    display: flex;
-    justify-content: center;
   height: auto;
   display: block;
+  margin: 0 auto;
+  padding-bottom: 20px; 
 }
 
 .fotos h1 {
