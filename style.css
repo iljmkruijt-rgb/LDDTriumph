@@ -173,7 +173,8 @@ nav {
 }
 
 video {
-  width: 100%;
+  width: 70vh;
+    justify-content: center;
   height: auto;
   display: block;
 }
