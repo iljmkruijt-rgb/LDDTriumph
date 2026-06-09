@@ -172,6 +172,12 @@ nav {
     color: rgba(255, 255, 255, 0.859);
 }
 
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .fotos h1 {
     font-size: 55px;
     color: rgba(255, 255, 255, 0.859);
