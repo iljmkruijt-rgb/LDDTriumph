@@ -162,6 +162,10 @@ nav {
     height: auto;
 }
 
+.trammelant.active {
+    align-items: center;
+}
+
 .trammelant h1 {
     justify-content: flex-start;
     align-items: center;
@@ -176,8 +180,7 @@ video {
   width: 70vw;
   height: auto;
   display: block;
-  margin: 0 auto;
-  padding-bottom: 20px; 
+  margin: 0 auto 20px auto;
 }
 
 .fotos h1 {
